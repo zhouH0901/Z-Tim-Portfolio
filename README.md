@@ -1,3 +1,3 @@
 # Z-Tim-Portfolio
-[Bootstrap - v4]
-[Angualr 2+]
+##Bootstrap - v4
+##Angualr 2+/5
