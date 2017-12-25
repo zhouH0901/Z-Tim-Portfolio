@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { IndexviewComponent } from './indexview/indexview.component';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    IndexviewComponent
+    IndexviewComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule
