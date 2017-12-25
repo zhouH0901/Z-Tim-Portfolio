@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+#z-body-bg {
+    background-color: honeydew;
+}
+
+.z-navbar-name{
+    margin-left:50px;
+} 
+
+.z-nav-bg{
+    background-color: skyblue;
+}
+
+.margin-top{
+    margin-top: 8%;
+}
