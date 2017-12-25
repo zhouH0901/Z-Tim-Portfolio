@@ -1,8 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
-#z-body-bg {
+@import url('https://getbootstrap.com/docs/4.0/examples/carousel/carousel.css');
+
+.z-body-bg{
     background-color: honeydew;
 }
-
 .z-navbar-name{
     margin-left:50px;
 } 
@@ -11,6 +12,9 @@
     background-color: skyblue;
 }
 
-.margin-top{
+.margin-top-8precent{
     margin-top: 8%;
 }
+
+
+
