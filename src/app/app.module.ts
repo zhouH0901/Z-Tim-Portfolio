@@ -13,7 +13,12 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { BlogComponent } from './blog/blog.component';
 
 const routeConfig: Routes = [
-  { path: 'home', component: MainviewComponent }
+  { path: '', redirectTo: '/home', pathMatch:'full'},
+  { path: 'home', component: MainviewComponent },
+  { path: 'skills',component:SkillsComponent },
+  { path: 'portfolio',component:PortfolioComponent },
+  { path: 'blog',component:BlogComponent },
+  
 ];
 
 
