@@ -7,6 +7,11 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainviewComponent } from './mainview/mainview.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { RouterModule, Routes } from '@angular/router';
+
+const routeConfig: Routes = [
+  { path: 'home', component: MainviewComponent }
+];
 
 
 @NgModule({
@@ -18,7 +23,8 @@ import { CarouselComponent } from './carousel/carousel.component';
     CarouselComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(routeConfig)
   ],
   providers: [],
   bootstrap: [AppComponent]
