@@ -8,6 +8,9 @@ import { FooterComponent } from './footer/footer.component';
 import { MainviewComponent } from './mainview/mainview.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { RouterModule, Routes } from '@angular/router';
+import { SkillsComponent } from './skills/skills.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { BlogComponent } from './blog/blog.component';
 
 const routeConfig: Routes = [
   { path: 'home', component: MainviewComponent }
@@ -20,7 +23,10 @@ const routeConfig: Routes = [
     HeaderComponent,
     FooterComponent,
     MainviewComponent,
-    CarouselComponent
+    CarouselComponent,
+    SkillsComponent,
+    PortfolioComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
