@@ -11,6 +11,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { SkillsComponent } from './skills/skills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { BlogComponent } from './blog/blog.component';
+import { CoverComponent } from './cover/cover.component';
 
 const routeConfig: Routes = [
   { path: '', redirectTo: '/home', pathMatch:'full'},
@@ -18,6 +19,8 @@ const routeConfig: Routes = [
   { path: 'skills',component:SkillsComponent },
   { path: 'portfolio',component:PortfolioComponent },
   { path: 'blog',component:BlogComponent },
+  { path: 'cover',component:CoverComponent },
+  
   
 ];
 
@@ -31,7 +34,8 @@ const routeConfig: Routes = [
     CarouselComponent,
     SkillsComponent,
     PortfolioComponent,
-    BlogComponent
+    BlogComponent,
+    CoverComponent
   ],
   imports: [
     BrowserModule,
